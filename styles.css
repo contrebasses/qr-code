@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* !!! tout ce qui est mis dans * s'applique à tous les éléments, pas juste à "la page entière" */
+
+
+/* Gen */
+/* ****************************** */
+
+/* Typo */
+/* ****************************** */
+
+
+body {
+    height:100vh;
+    padding: 27.5px;
+    background-color: var(--background);
+    color: var(--slate-900);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* HEADER */
+/* ***/
+
+/* MAIN */
+/* ************************ */
+.text-preset-1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--text-preset-1);
+    line-height: 120%;
+}
+
+.text-preset-2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--text-preset-2);
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.caption {
+    width: 288px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: var(--space-200);
+    gap: var(--space-200);
+}
+
+.card {
+    background-color: var(--white);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: var(--card-shadow);
+    gap: var(--space-300);
+    padding: var(--space-200);
+    margin: auto;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+/* /***! position=relative + display: flex hover images tableau */
+
+/* #check:not(:checked){
+    background-color: azure;
+} */
+
+/* FOOTER */
+/* ***************************** */
