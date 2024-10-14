@@ -67,6 +67,7 @@ body {
     border-radius: 20px;
     box-shadow: var(--card-shadow);
     padding: var(--space-200);
+    padding-bottom: var(--space-500);
     margin: auto;
 }
 
