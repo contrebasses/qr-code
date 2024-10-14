@@ -36,7 +36,6 @@ body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: normal;
     font-size: var(--text-preset-1);
     line-height: 120%;
 }
@@ -45,10 +44,10 @@ body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
     font-size: var(--text-preset-2);
     line-height: 140%;
     letter-spacing: 0.2px;
+    color: var(--slate-500);
 }
 
 .caption {
@@ -64,10 +63,9 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 20px;
     box-shadow: var(--card-shadow);
-    gap: var(--space-300);
     padding: var(--space-200);
     margin: auto;
 }
